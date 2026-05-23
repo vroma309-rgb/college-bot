@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НЕФК - Контакти</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        .contact-card {
+            background: #334155;
+            border-radius: 14px;
+            padding: 20px;
+            margin-top: 12px;
+            border: 1px solid #475569;
+        }
+        
+        .contact-card .label {
+            font-size: 12px;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .contact-card .value {
+            font-size: 15px;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+        }
+        
+        .social-link {
+            flex: 1;
+            background: #334155;
+            border: 1px solid #475569;
+            border-radius: 12px;
+            padding: 14px;
+            text-align: center;
+            color: #e2e8f0;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        
+        .social-link:hover {
+            background: #475569;
+            border-color: #38bdf8;
+            transform: translateY(-1px);
+        }
+        
+        .site-hint {
+            text-align: center;
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            margin-top: auto;
+        }
+        
+        .groups-grid {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="college-header">
+        <h1>Нововолинський <span>електромеханічний</span> фаховий коледж</h1>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="section-title">
+                <h2>📞 Контакти</h2>
+            </div>
+
+            <div class="contact-card">
+                <div class="label">📲 Телефон</div>
+                <div class="value">+380 5645 885 55</div>
+            </div>
+
+            <div class="contact-card">
+                <div class="label">📍 Адреса</div>
+                <div class="value">
+                    вул. Шахтарська, 16<br>
+                    м. Нововолинськ<br>
+                    Волинська область, 45400
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/stud.nefk/" class="social-link">📷 Instagram</a>
+                <a href="https://www.facebook.com/groups/695945527236874?locale=uk_UA" class="social-link">📘 Facebook</a>
+            </div>
+
+            <p class="site-hint">🔗 Тисни, щоб перейти на сайт ↓</p>
+
+            <div class="groups-grid">
+                <a href="https://nemk.com.ua/" class="group-btn">🌐 Перейти на сайт</a>
+                <a href="index.html" class="group-btn">⬅️ Назад</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-developer">Розробник: <span>Ващук Роман</span> | Група: <span>1-КТ-24</span></p>
+        </div>
+    </footer>
+
+    <script src="js/telegram.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
